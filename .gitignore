@@ -1,0 +1,73 @@
+
+Python / FastAPI Backend
+
+pycache/
+*.py[cod]
+*$py.class
+
+Virtual environments
+
+.venv/
+venv/
+env/
+
+Environment variables and secrets
+
+.env
+.env.*
+!.env.example
+
+Database files
+
+*.db
+*.sqlite
+*.sqlite3
+
+Testing and coverage
+
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+Logs
+
+*.log
+
+React / Vite Frontend
+
+node_modules/
+dist/
+.vite/
+coverage/
+
+Environment files
+
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+IDE and Editor Files
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+Operating System Files
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+Build and Temporary Files
+temp/
+tmp/
+.cache/
+
+Security
+
+*.pem
+*.key
+secrets.json
